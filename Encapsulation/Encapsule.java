@@ -1,6 +1,6 @@
 //Encapsulation, copying objects,Copy Constructor
 
-public class Enacpsule {
+public class Encapsule {
     public static void main(String[] args) {
         Car car1 = new Car(135, 5);
         Car car2 = new Car(200, 8);
