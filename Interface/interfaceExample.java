@@ -16,7 +16,7 @@ class Student implements Study {
         System.out.println("I am studying");
     }
 }
-interface Study {
+interface Study { //interface
     void study();
 }
 
