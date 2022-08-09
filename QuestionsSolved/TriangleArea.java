@@ -5,7 +5,7 @@
 //  with constructor having the three sides as its parameters.
 
 //Let's use constructor overloading and combine the above two questions
-package QuestionsSolved.ex3;
+package QuestionsSolved;
 
 public class TriangleArea {
     public static void main(String[] args) {

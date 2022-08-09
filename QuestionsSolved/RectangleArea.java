@@ -3,7 +3,7 @@
 // and the second method named as 'getArea' returns the area of the rectangle.
 // Length and breadth of rectangle are entered through keyboard.
 
-package QuestionsSolved.ex1;
+package QuestionsSolved;
 import java.util.Scanner;
 
 public class RectangleArea {
