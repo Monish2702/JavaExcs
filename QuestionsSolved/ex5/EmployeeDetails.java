@@ -20,7 +20,6 @@ public class EmployeeDetails {
 class Employee{
     private String name;
     private int yearOfJoining;
-    private float salary;
     private String address;
 
     Employee(String name, int yearOfJoining,String address){
