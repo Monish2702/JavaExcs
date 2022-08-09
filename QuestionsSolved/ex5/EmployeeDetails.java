@@ -11,9 +11,9 @@ public class EmployeeDetails {
         Employee emp2 = new Employee("Sam", 2000, "68D- WallsStreat");
         Employee emp3 = new Employee("John", 1999, "26B- WallsStreat");
         System.out.println("Name        Year of joining        Address");
-        System.out.println(emp1.getName() + "            " + emp1.getYear() + "                " + emp1.getAddress());
-        System.out.println(emp2.getName() + "            " + emp2.getYear() + "                " + emp2.getAddress());
-        System.out.println(emp3.getName() + "            " + emp3.getYear() + "                " + emp3.getAddress());
+        System.out.println(emp1.getName() + "         " + emp1.getYear() + "             " + emp1.getAddress());
+        System.out.println(emp2.getName() + "            " + emp2.getYear() + "             " + emp2.getAddress());
+        System.out.println(emp3.getName() + "           " + emp3.getYear() + "             " + emp3.getAddress());
     }
 }
 
@@ -42,5 +42,5 @@ class Employee{
     public String getAddress(){
         return address;
     }
-    
+
 }
