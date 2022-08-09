@@ -31,7 +31,7 @@ class Car {
         this.copy(carToCopy);
     }
 
-    //getters and setters to access the private variables
+    //getters and setters to access private variables
     public void setSpeed(int speed) {
         this.speed = speed;
     }
