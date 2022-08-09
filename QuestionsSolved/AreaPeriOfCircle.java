@@ -23,5 +23,6 @@ public class AreaPeriOfCircle {
         else {
             System.out.println("please enter non zero positive number");
         }
+        s.close();
     }
 }
