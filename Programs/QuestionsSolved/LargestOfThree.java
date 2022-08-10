@@ -1,6 +1,6 @@
 // find the largest among three numbers x,y, and z.
 //  You should use if-then-else construct in Java
-package QuestionsSolved;
+package Programs.QuestionsSolved;
 
 import java.util.Scanner;
 

@@ -10,7 +10,7 @@
 // 4 - adding two matrices. If the matrices are not addable, "Matrices cannot be added" will be displayed.
 // 5 - multiplying the two matrices
 
-package Qs_10_08_2022;
+package Programs.Qs_10_08_2022;
 import java.util.Scanner;
 public class Matrices {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 // Complete the code segment to check whether the number is an Armstrong number or not.
-package QuestionsSolved;
+package Programs.QuestionsSolved;
 import java.util.Scanner;
 public class ArmstrongNumber {
     public static void main(String[] args) {

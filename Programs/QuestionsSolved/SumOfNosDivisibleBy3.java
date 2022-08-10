@@ -7,7 +7,7 @@
 // Even number divisible by 3:0 6
 //sum:6
 
-package QuestionsSolved;
+package Programs.QuestionsSolved;
 import java.util.Scanner;
 public class SumOfNosDivisibleBy3 {
        public static void main(String[] args) {

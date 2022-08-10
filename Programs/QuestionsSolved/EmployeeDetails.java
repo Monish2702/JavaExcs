@@ -3,7 +3,7 @@
 // Robert            1994                64C- WallsStreat
 // Sam               2000                68D- WallsStreat
 // John              1999                26B- WallsStreat
-package QuestionsSolved;
+package Programs.QuestionsSolved;
 public class EmployeeDetails {
     public static void main(String[] args) {
         Employee emp1 = new Employee("Robert", 1994, "64C- WallsStreat");
