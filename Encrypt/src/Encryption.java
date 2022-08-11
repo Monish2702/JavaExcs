@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -50,20 +52,26 @@ public class Encryption {
         character = ' ';
         list.clear();
         shuffledList.clear();
+        
         for (int i = 32; i < 127; i++) {
             list.add(Character.valueOf(character));
             character++;
         }
-        System.out.print("\nEnter the key: ");
-        String key = cin.next();
-        letters = key.toCharArray();
-        secretLetters = new char[letters.length];
-        for (int i = 0; i < letters.length; i++) {
-            secretLetters[i] = letters[i];
-        }
+        
+        shuffledList = new ArrayList(list);
+        Collections.shuffle(shuffledList); 
     }
     private void getKey(){
-
+        //now here
+        System.out.println("\nThe key is: ");
+        for(Character c : list){
+            System.out.print(c);
+        }
+        System.out.println();
+        for(Character c : shuffledList){
+            System.out.print(c);
+        }
+        System.out.println();
     }
     private void encrypt() {
     }
