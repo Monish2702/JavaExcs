@@ -33,7 +33,11 @@ public class Encryption {
                     decrypt();
                     break;
                 case 3:
-                    newKey();
+                    System.out.println("\n~~Warning~~\nAre you sure to generate a new key? (y/n)");
+                    String choice2 = cin.nextLine();
+                    if (choice2.equals("y")) {
+                        newKey();
+                    }
                     break;
                 case 4:
                     getKey();
