@@ -10,7 +10,7 @@ public class Encryption {
     private ArrayList<Character> list;
     private ArrayList<Character> shuffledList;
     private char character;
-    private char[] letters;
+    private char[] letters; //the scapegoat message
     private char[] secretLetters;
     Encryption() {
         cin = new Scanner(System.in);
@@ -75,7 +75,7 @@ public class Encryption {
     }
     private void encrypt() {
         System.out.println("\nEnter the message to be encrypted: ");
-        String message = cin.nextLine();
+        String message = cin.next();
         letters = message.toCharArray();
         System.out.println("\nThe encrypted message is: ");
         for (int i = 0; i < letters.length; i++) {
