@@ -52,7 +52,7 @@ public class Encryption {
         character = ' ';
         list.clear();
         shuffledList.clear();
-        
+
         for (int i = 32; i < 127; i++) {
             list.add(Character.valueOf(character));
             character++;
@@ -74,6 +74,23 @@ public class Encryption {
         System.out.println();
     }
     private void encrypt() {
+        System.out.print("\nEnter the message to be encrypted: ");
+        String message = cin.nextLine();
+        letters = message.toCharArray();
+        System.out.println("\nThe encrypted message is: ");
+        for (int i = 0; i < letters.length; i++) {
+            for (int j = 0; j < list.size(); j++) {
+                if (letters[i] == list.get(j)) {
+                    letters[i] = shuffledList.get(j);
+                    break;
+                }
+            }
+        }
+        for(char c : letters){
+            System.out.print(c);
+        }
+        System.out.println();
+        askChoice();
     }
 
     private void decrypt() {
