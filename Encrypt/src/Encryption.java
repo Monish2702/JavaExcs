@@ -47,6 +47,13 @@ public class Encryption {
         }
     }
     private void newKey() {
+        character = ' ';
+        list.clear();
+        shuffledList.clear();
+        for (int i = 32; i < 127; i++) {
+            list.add(char.valueOf(character));
+            character++;
+        }
         System.out.print("\nEnter the key: ");
         String key = cin.next();
         letters = key.toCharArray();
