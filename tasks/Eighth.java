@@ -1,12 +1,20 @@
+package tasks;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Encryption {
+public class Eighth {
+    public static void main(String[] args) {
+        new Encryption();
+    }
+}
+
+class Encryption {
     private Scanner cin;
-    private ArrayList<Character> list;
-    private ArrayList<Character> shuffledList;
-    private char character;
+    private ArrayList<Character> list; //all characters
+    private ArrayList<Character> shuffledList; //shuffled characters 
+    private char character; //to iterate through lists
     private char[] letters; // the scapegoat message
 
     Encryption() {
