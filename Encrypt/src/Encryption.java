@@ -74,7 +74,7 @@ public class Encryption {
         System.out.println();
     }
     private void encrypt() {
-        System.out.print("\nEnter the message to be encrypted: ");
+        System.out.println("\nEnter the message to be encrypted: ");
         String message = cin.nextLine();
         letters = message.toCharArray();
         System.out.println("\nThe encrypted message is: ");
