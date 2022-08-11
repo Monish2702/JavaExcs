@@ -51,7 +51,7 @@ public class Encryption {
         list.clear();
         shuffledList.clear();
         for (int i = 32; i < 127; i++) {
-            list.add(char.valueOf(character));
+            list.add(Character.valueOf(character));
             character++;
         }
         System.out.print("\nEnter the key: ");
